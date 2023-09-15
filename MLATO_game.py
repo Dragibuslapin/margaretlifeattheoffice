@@ -3,7 +3,7 @@
 import sys
 import time
 
-a = 2
+a = 1
 b = 0.2
 c = 0.08
 
@@ -80,7 +80,7 @@ def path1():
     print()
     s4 = "Oui, oui comme m'avait dit Grace Hopper, lorsqu'on travaillait sur l'UNIVAC  : “Oser et faire. Il est plus facile de demander le pardon après, que la permission avant. "   
     import webbrowser
-    webbrowser.open('https://openclassrooms.com/forum/sujet/mettre-un-lien-vers-un-navigateur')
+    webbrowser.open('https://fr.wikipedia.org/wiki/Grace_Hopper')
     for character in s4:
         sys.stdout.write(character)
         sys.stdout.flush()
@@ -191,7 +191,7 @@ def path3_1():
     print("Vous n'y croyez plus et surtout vous voulez obtenir un poste sans dépendre de qui que ce soit.")
     time.sleep(a)
     print()
-    s3 = "Lewis : «Bien le bonjour Margaret, mais tu es ravissante aujourd'hui, cette jupe te va à merveille. Tu nous dévoiles petit à petit tes jambes ! »"
+    s3 = "Lewis : «Bien le bonjour Margaret, mais tu es ravissante aujourd'hui, cette jupe te va à merveille. Tu te dévoiles petit à petit ! »"
     for character in s3:
         sys.stdout.write(character)
         sys.stdout.flush()
@@ -268,7 +268,7 @@ def path3_2():
     print()
     print('Vous refusez de sortir avec lui.')
     time.sleep(a)
-    s1 = '  "Margaret : «Je prefère avancer mon travail ce soir, car comme tu viens de le relever, je ne fais rien et donc il faut que je finisse mon travail.  "'
+    s1 = '  "Margaret : « Je prefère avancer mon travail ce soir, car comme tu viens de le relever, je ne fais rien et donc il faut que je finisse mon travail. "'
     for character in s1:
         sys.stdout.write(character)
         sys.stdout.flush()
@@ -284,67 +284,46 @@ def path3_2():
     print("Bon il est parti je peux m'y remettre.")
     time.sleep(a)
     print("Je devrai contacter Delia Derbyshire. Ses compétences en compositions musicales electroniques pourraient m'aider à mieux comprendre certains circuits.")
+    import webbrowser
+    webbrowser.open('https://fr.wikipedia.org/wiki/Delia_Derbyshire')
     time.sleep(a)
     print("Je le ferai demain, je vais me remettre à esquisser des idées.")
     time.sleep(a)
     print("Si au lieu d'avoir des claviers rectangulaires, ne pourrait-on pas faire des claviers anthropomorphiques ? Ça serait intéressant d'avoir des claviers mains ou des formes molles pour avoir plus de confort lorsque l'on tape. Il faudrait que j'approfondisse les questions ergonomiques. ")
     time.sleep(a)
-    print("Faudrait que je demande à Roberta Williams aussi plus d'informations sur son jeu interactif en programmation, «Mystery Hoouse». Élaborer un jeu dans lequel les personnes interagissent avec l'ordinateur, pourrait aider à faire comprendre les enjeux liées à l'informatique et à expliquer mon projet. ")
+    print("Faudrait que je demande à Roberta Williams aussi plus d'informations sur son jeu interactif en programmation, «Mystery Hoouse». Élaborer un jeu dans lequel les personnes interagissent avec l'ordinateur, pourrait aider à faire comprendre les enjeux liées à l'informatique et à mieux expliquer mon projet. ")
+    import webbrowser
+    webbrowser.open('https://fr.wikipedia.org/wiki/Roberta_Williams')
     time.sleep(a)
     print("Il faut vraiment que je propose des alternatives et que j'aide les individus à réfléchir sur comment l'ordinateur pourrait évoluer. Je n'ai pas envie que l'ordinateur sur lequel je travaille actuellement devienne la norme. Je pense qu'il y a plusieurs manières d'intéragir avec ces ordinateurs.  ")
     time.sleep(a)
+    print("...")
+    time.sleep(a)
+    print("...")
+    time.sleep(a)
+    print("...")
+    time.sleep(a)
+    print("...")
+    time.sleep(a)
+    print("...")
+    time.sleep(a)
+    print("Il est déjà 17h !!! La journée est passée si vite...")
+    time.sleep(a)
+    print("Boss : « Alors Margaret, vous avez bien fini d'étudier les CV ? Prenez 4 candidats et donnez moi leur informations. »")
+    time.sleep(a)
+    print("Margaret : « Il y a 180 CV... Je n'ai pas tout finir aujourd'hui car je dois en plus finir de vérifier les fiches de paies et... »")
+    time.sleep(a)
+    print("Boss : « Pas besoin d'entendre vos excuses, vous avez paressé et c'est tout. Faites attention Margaret, vous n'êtes pas indispensable à l'entreprise. Un profil comme le vôtre est facilement trouvable. »")
+    time.sleep(a)
+    print("Margaret : « Mais c'était tout bonnement impossible de finir toutes ces tâches en une seule journée... »")
+    time.sleep(a)
+    print("Boss : « Ne mentez pas, je vous ai vu discuter et flirter avec Lewis. Au lieu d'aguicher vos collègues et de les pertrurber, travaillez sinon ça sera des CV pour votre poste que vous devrez analyser. »")
+    time.sleep(a)
     print()
-    s3 = "»"
-    for character in s3:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
+    print("Vous ne faites rien car vous savez que votre travail est en jeu... Vous rentrez chez vous, vous finissez votre bouteille de vin rouge de la veille avant de vous endormir devant Deux flics à Miami. »")
+    time.sleep(a)
     print()
-    s4 = "...It appears you've taken a very difficult route..."
-    for character in s4:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    s5 = "...Your vision is keen. You see through the darkness and the light..."
-    for character in s5:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    s6 = "...And your strength has grown from your travels..."
-    for character in s6:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    s7 = "...You've even put others needs before your own..."
-    for character in s7:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    s8 = "...You have learned everything I have to teach you..."
-    for character in s8:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    s9 = "...So you may finally be free..."
-    for character in s9:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    s10 = "...It's time to return."
-    for character in s10:
-        sys.stdout.write(character)
-        sys.stdout.flush()
-        time.sleep(c)
-    print()
-    time.sleep(5)
-
-    
+  
 
 
 # Main Function ###
@@ -386,9 +365,9 @@ print("Elle a participé à la conception des ordinateurs UNIVAC I et l’IBM 65
 time.sleep(a)
 print("Ces ordinateurs servaient à exécuter des tâches administratives simples et a opérer des centaines multiplications par seconde.")
 time.sleep(a)
-startGame = input("Voulez-vous commencer le jeu ?(Y/N): ")
+startGame = input("Voulez-vous commencer le jeu ?(Oui (entrez O) /Non (entrez N) ): ")
 if startGame == "n" or startGame == "N":
     print("Une prochaine fois")
     time.sleep(3)
-elif startGame == "y" or startGame == "Y":
+elif startGame == "o" or startGame == "O":
     intro()
