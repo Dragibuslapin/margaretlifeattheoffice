@@ -3,6 +3,12 @@
 import sys
 import time
 
+pip install playsound
+
+fromplaysound import playsound
+
+playsound ('deliamusique.mp3')
+
 a = 1
 b = 0.2
 c = 0.08
@@ -352,7 +358,7 @@ print("!     ....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.  ")
 print()
 print()  
 print("Florie Souday, 2023 ©")
-print()
+print("Musique : Bach Air Extended par Delia Derbyshire, musicienne et compositrice britannique de musique concrète et musique électronique, 1971")
 print()  
 print()
 print()
